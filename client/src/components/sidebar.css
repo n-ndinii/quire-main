@@ -1,0 +1,43 @@
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background: linear-gradient(117.8deg, rgb(240, 19, 77) 22.2%, rgb(228, 0, 124) 88.7%);
+    padding-top: 50px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow-x: hidden;
+    display: flex; /* Center vertically */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    transition: 0.5s;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+}
+
+.sidebar-option {
+    padding: 20px; /* Increase padding for larger size */
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    transition: 0.3s;
+    margin: 10px 0; /* Add margin between each option */
+}
+
+.sidebar-option:hover {
+  
+    color: black;
+}
+
+@media screen and (max-width: 768px) {
+    .sidebar {
+        width: 100px;
+        padding-top: 20px;
+    }
+  
+    .sidebar-option {
+        padding: 15px; /* Adjust padding for smaller screens */
+        font-size: 14px;
+    }
+}

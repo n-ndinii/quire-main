@@ -1,0 +1,18 @@
+.auth-modal{
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.tit{
+    font-weight: 200px;
+    color: rgb(255, 0, 93);
+}
+
+.secondary-button{
+    transition: 0.5s;
+}
+
+.secondary-button:hover{
+    transform: scale(1.1);
+    background-color: rgb(239, 75, 100);
+}
