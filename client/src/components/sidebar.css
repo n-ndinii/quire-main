@@ -1,20 +1,4 @@
-.sidebar {
-    width: 250px;
-    height: 100vh;
-    background: linear-gradient(117.8deg, rgb(240, 19, 77) 22.2%, rgb(228, 0, 124) 88.7%);
-    padding-top: 50px;
-    position: fixed;
-    left: 0;
-    top: 0;
-    overflow-x: hidden;
-    display: flex; /* Center vertically */
-    flex-direction: column; /* Stack items vertically */
-    justify-content: center; /* Center items vertically */
-    align-items: center; /* Center items horizontally */
-    transition: 0.5s;
-    font-family: "Montserrat", sans-serif;
-    font-size: 30px;
-}
+
 
 .sidebar-option {
     padding: 20px; /* Increase padding for larger size */
@@ -40,4 +24,44 @@
         padding: 15px; /* Adjust padding for smaller screens */
         font-size: 14px;
     }
+}
+
+.vertical-buttons-container {
+
+
+bottom: 0;
+left: 10%;
+
+    border-top: 5px solid black;
+ position: absolute;
+ z-index: 111;
+    flex-direction: column;
+ 
+
+}
+
+.vertical-button {
+ 
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: white;
+ 
+    color: #fff;
+
+    border-radius: 100%;
+    cursor: pointer;
+    
+}
+
+.vertical-button:hover {
+    background-color: #0056b3;
+}
+
+.img{
+    width: 40px;
 }
