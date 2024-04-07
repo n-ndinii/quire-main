@@ -31,7 +31,7 @@ const OnBoarding = () => {
             const response = await axios.put('http://localhost:8000/user', {formData})
             console.log(response)
             const success = response.status === 200
-            if (success) navigate('/dashboard')
+            if (success) navigate('/dashboard/feed')
         } catch (err) {
             console.log(err)
         }
